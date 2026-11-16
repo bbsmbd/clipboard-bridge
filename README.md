@@ -4,7 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 **Copy on your PC → paste on your Android phone. Copy on the phone → paste on the PC.**
-Over your own WiFi, end-to-end encrypted, no cloud, no account.
+Over your own WiFi, end-to-end encrypted. No server, no cloud, no account.
 
 ---
 
