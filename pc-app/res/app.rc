@@ -1,0 +1,26 @@
+#include <winuser.h>
+1 ICON "app.ico"
+2 ICON "tray_off.ico"
+CREATEPROCESS_MANIFEST_RESOURCE_ID RT_MANIFEST "app.manifest"
+1 VERSIONINFO
+FILEVERSION 1,1,0,0
+PRODUCTVERSION 1,1,0,0
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "040904B0"
+    BEGIN
+      VALUE "FileDescription", "Clipboard Bridge V1"
+      VALUE "CompanyName", "Tarek Ahmed"
+      VALUE "LegalCopyright", "Copyright (C) 2026 Tarek Ahmed"
+      VALUE "ProductName", "Clipboard Bridge"
+      VALUE "FileVersion", "1.1.0"
+      VALUE "ProductVersion", "1.1.0"
+      VALUE "OriginalFilename", "ClipboardBridge-V1.exe"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x409, 1200
+  END
+END
