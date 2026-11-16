@@ -1,4 +1,6 @@
 # Clipboard Bridge
+[![Latest Release](https://img.shields.io/github/v/release/brahmanbariait1-coder/clipboard-bridge)](https://github.com/brahmanbariait1-coder/clipboard-bridge/releases)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 **Copy on your PC → paste on your Android phone. Copy on the phone → paste on the PC.**
 Over your own WiFi, end-to-end encrypted, no cloud, no account.
