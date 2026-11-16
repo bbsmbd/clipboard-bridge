@@ -1,6 +1,6 @@
 # Clipboard Bridge
 
-[![Latest Release](https://img.shields.io/github/v/release/brahmanbariait1-coder/clipboard-bridge)](https://github.com/brahmanbariait1-coder/clipboard-bridge/releases)
+[![Latest Release](https://img.shields.io/github/v/release/bbsmbd/clipboard-bridge)](https://github.com/bbsmbd/clipboard-bridge/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 **Copy on your PC → paste on your Android phone. Copy on the phone → paste on the PC.**
@@ -14,7 +14,7 @@ Over your own WiFi, end-to-end encrypted, no cloud, no account.
 
 ## Download
 
-From the [Releases](https://github.com/brahmanbariait1-coder/clipboard-bridge/releases) page:
+From the [Releases](https://github.com/bbsmbd/clipboard-bridge/releases) page:
 
 | File | What it is |
 |---|---|
@@ -26,7 +26,7 @@ Requirements: Windows 10/11 64-bit · Android 6.0 or newer · PC and phone on th
 
 ### বাংলা
 
-[Releases](https://github.com/brahmanbariait1-coder/clipboard-bridge/releases) পাতা থেকে নামান:
+[Releases](https://github.com/bbsmbd/clipboard-bridge/releases) পাতা থেকে নামান:
 
 | ফাইল | কী |
 |---|---|
