@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Clipboard Bridge</string>
+    <string name="channel_name">Connection status</string>
+    <string name="send_to_pc">Send to PC</string>
+    <string name="tile_label">Send clipboard to PC</string>
+    <string name="access_desc">Detects when you tap Copy, so the copied text can be sent to your own PC on the same WiFi. It does not read screen content and sends nothing anywhere else.</string>
+
+    <string name="st_connected">Connected to %1$s</string>
+    <string name="st_nopair">Not paired with a PC</string>
+    <string name="st_nowifi">No WiFi — connect to the same WiFi as the PC</string>
+    <string name="st_search">Looking for the PC on this WiFi…</string>
+    <string name="st_connecting">Connecting…</string>
+    <string name="st_forgot">The PC removed this phone — pair again</string>
+    <string name="st_off">Sync is turned off</string>
+    <string name="notif_send">Send clipboard to PC</string>
+
+    <string name="paired_pc">PC: %1$s (%2$s)</string>
+    <string name="no_pc">No PC paired yet</string>
+    <string name="my_ip">This phone: %1$s</string>
+    <string name="my_ip_none">This phone has no WiFi address</string>
+    <string name="btn_send">Send clipboard to PC now</string>
+    <string name="btn_pair">Pair with PC</string>
+    <string name="btn_pair_change">Pair again / another PC</string>
+    <string name="btn_on">Turn sync ON</string>
+    <string name="btn_off">Turn sync OFF</string>
+    <string name="btn_forget">Remove this PC</string>
+    <string name="setup_title">Setup (one time)</string>
+    <string name="access_hint">Android 10+: turn on Accessibility for automatic phone → PC copy. If it is greyed out (\"Restricted setting\"): Settings → Apps → Clipboard Bridge → ⋮ → Allow restricted settings, then try again.</string>
+    <string name="btn_access">Turn on Accessibility (auto copy)</string>
+    <string name="btn_access_on">Accessibility is ON ✔</string>
+    <string name="btn_battery">Allow running in background</string>
+    <string name="btn_battery_ok">Background running allowed ✔</string>
+    <string name="how_to">How to use:\n• PC → phone: Ctrl+C on PC, then paste on the phone.\n• Phone → PC: copy on the phone, then Ctrl+V on PC.\n• Also: select text → “Send to PC”, Share → Clipboard Bridge, the notification button, or the Quick Settings tile.\n• If copying stops after a while (Xiaomi/Oppo/Vivo/Samsung): allow Autostart and lock the app in Recents.</string>
+    <string name="log_title">Activity</string>
+
+    <string name="pair_title">Pair with PC</string>
+    <string name="pair_steps">1. Open Clipboard Bridge V1 on the PC (same WiFi/router).\n2. Pick your PC below (or type its IP, shown in the PC window).\n3. Type the 6-digit PIN shown on the PC and tap Pair.</string>
+    <string name="search_running">Searching for the PC…</string>
+    <string name="search_sweep">Searching every address on this WiFi…</string>
+    <string name="search_none">No PC found automatically. Type the PC IP below.</string>
+    <string name="search_found">Found %1$d PC — tap to select:</string>
+    <string name="found_item">%1$s   •   %2$s</string>
+    <string name="btn_search">Search again</string>
+    <string name="ip_label">PC IP address</string>
+    <string name="ip_hint">e.g. 192.168.1.5</string>
+    <string name="pin_label">PIN (on the PC screen)</string>
+    <string name="pin_hint">6-digit PIN</string>
+    <string name="btn_pair_now">Pair</string>
+    <string name="btn_test">Test connection</string>
+    <string name="pair_trouble">Not working? Check: same WiFi/router; the PC app is open; when the PC asked for firewall permission you pressed Yes; VPN on the phone is off.</string>
+    <string name="testing">Testing…</string>
+    <string name="pairing">Checking PIN…</string>
+    <string name="test_ok">PC found: %1$s ✔ Now type the PIN and tap Pair.</string>
+    <string name="pair_ok">Paired with %1$s ✔ Now just copy — the rest is automatic.</string>
+    <string name="err_no_ip">Select a PC or type its IP address.</string>
+    <string name="err_pin_len">The PIN has 6 digits.</string>
+    <string name="err_pin">Wrong PIN. Type the PIN currently shown on the PC.</string>
+    <string name="err_locked">Too many wrong PINs. Wait %1$d seconds.</string>
+    <string name="err_refused">The PC refused the connection — is Clipboard Bridge V1 open on the PC?</string>
+    <string name="err_timeout">No answer from the PC — firewall blocking, or the phone is on a different WiFi.</string>
+    <string name="err_unreach">This IP cannot be reached — the phone is on a different network.</string>
+    <string name="err_bad_ip">Invalid IP address.</string>
+    <string name="err_old_pc">That PC runs an old version. Start Clipboard Bridge V1 on the PC.</string>
+    <string name="err_net">Network error (%1$s). Try again.</string>
+
+    <string name="toast_sent">Sent to PC ✔</string>
+    <string name="toast_pending">PC not connected — it will be sent when it connects</string>
+    <string name="toast_not_paired">Pair with your PC first</string>
+    <string name="toast_empty">Clipboard is empty</string>
+
+    <string name="log_connected">Connected:</string>
+    <string name="log_disconnected">Disconnected — reconnecting…</string>
+    <string name="log_from_pc">From PC:</string>
+    <string name="log_sent">Sent to PC:</string>
+    <string name="log_pending">PC not connected, will send later</string>
+    <string name="log_too_big">Text too large (over 1,000,000 characters)</string>
+    <string name="log_unpaired">The PC removed this phone</string>
+    <string name="log_forgot">The PC does not know this phone any more — pair again</string>
+    <string name="log_img_from_pc">Image from PC (paste it):</string>
+    <string name="log_img_from_pc_saved">Image from PC (paste it, also in Gallery):</string>
+    <string name="log_img_sent">Image sent to PC:</string>
+    <string name="log_img_too_big">Image too large (over 20 MB)</string>
+    <string name="log_pending_img">PC not connected — image not sent</string>
+    <string name="toast_img_sent">Image sent to PC ✔</string>
+</resources>
