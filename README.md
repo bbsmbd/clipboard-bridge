@@ -60,6 +60,19 @@ Requirements: Windows 10/11 64-bit · Android 6.0 or newer · PC and phone on th
 ### If the APK hangs at "Installing…"
 Some file-manager installers hang. Enable USB debugging, connect the phone, and run `tools/INSTALL-ON-PHONE.bat` (uses `adb` from the Android SDK platform-tools).
 
+## Screenshots
+
+![Pair with PC](docs/screenshots/pair-with-pc.png)
+*Pair with PC — enter the PC's IP and the 6-digit PIN shown on the PC.*
+
+![Connected on phone](docs/screenshots/phone-connected.png)
+*Connected — copy on the PC, paste on the phone, and back.*
+
+![Connected on PC](docs/screenshots/pc-connected.png)
+*The PC window — connected phone, pairing PIN and PC IP.*
+
+> The IP addresses, PIN and device names in the screenshots are examples.
+
 ## How it works
 
 ```
