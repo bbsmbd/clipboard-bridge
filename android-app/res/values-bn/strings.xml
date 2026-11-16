@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Clipboard Bridge</string>
+    <string name="channel_name">সংযোগের অবস্থা</string>
+    <string name="send_to_pc">পিসিতে পাঠান</string>
+    <string name="tile_label">ক্লিপবোর্ড পিসিতে পাঠান</string>
+    <string name="access_desc">আপনি কখন Copy চাপছেন শুধু সেটা বুঝতে এটা লাগে, যাতে কপি করা লেখা একই WiFi-তে থাকা আপনার নিজের পিসিতে যায়। এটা স্ক্রিনের লেখা পড়ে না, অন্য কোথাও কিছু পাঠায় না।</string>
+
+    <string name="st_connected">সংযুক্ত: %1$s</string>
+    <string name="st_nopair">কোনো পিসির সাথে যুক্ত নেই</string>
+    <string name="st_nowifi">WiFi নেই — পিসির একই WiFi-তে যুক্ত হোন</string>
+    <string name="st_search">এই WiFi-তে পিসি খোঁজা হচ্ছে…</string>
+    <string name="st_connecting">সংযোগ হচ্ছে…</string>
+    <string name="st_forgot">পিসি এই ফোনটি মুছে দিয়েছে — আবার পেয়ার করুন</string>
+    <string name="st_off">সিঙ্ক বন্ধ আছে</string>
+    <string name="notif_send">ক্লিপবোর্ড পিসিতে পাঠান</string>
+
+    <string name="paired_pc">পিসি: %1$s (%2$s)</string>
+    <string name="no_pc">এখনো কোনো পিসি যুক্ত হয়নি</string>
+    <string name="my_ip">এই ফোন: %1$s</string>
+    <string name="my_ip_none">এই ফোনে কোনো WiFi ঠিকানা নেই</string>
+    <string name="btn_send">এখনই ক্লিপবোর্ড পিসিতে পাঠান</string>
+    <string name="btn_pair">পিসির সাথে যুক্ত করুন</string>
+    <string name="btn_pair_change">আবার পেয়ার / অন্য পিসি</string>
+    <string name="btn_on">সিঙ্ক চালু করুন</string>
+    <string name="btn_off">সিঙ্ক বন্ধ করুন</string>
+    <string name="btn_forget">এই পিসি মুছে ফেলুন</string>
+    <string name="setup_title">সেটআপ (একবারই)</string>
+    <string name="access_hint">Android 10 বা তার বেশি: ফোন থেকে পিসিতে নিজে নিজে কপির জন্য Accessibility চালু করুন। ধূসর বা \"Restricted setting\" দেখালে: Settings → Apps → Clipboard Bridge → ⋮ → Allow restricted settings, তারপর আবার চেষ্টা করুন।</string>
+    <string name="btn_access">Accessibility চালু করুন (অটো কপি)</string>
+    <string name="btn_access_on">Accessibility চালু আছে ✔</string>
+    <string name="btn_battery">ব্যাকগ্রাউন্ডে চলার অনুমতি দিন</string>
+    <string name="btn_battery_ok">ব্যাকগ্রাউন্ডে চলার অনুমতি আছে ✔</string>
+    <string name="how_to">যেভাবে ব্যবহার করবেন:\n• পিসি → ফোন: পিসিতে Ctrl+C, তারপর ফোনে Paste।\n• ফোন → পিসি: ফোনে Copy, তারপর পিসিতে Ctrl+V।\n• আরও উপায়: লেখা সিলেক্ট করে “পিসিতে পাঠান”, Share → Clipboard Bridge, নোটিফিকেশনের বোতাম, অথবা Quick Settings টাইল।\n• কিছুক্ষণ পর কাজ থেমে গেলে (Xiaomi/Oppo/Vivo/Samsung): Autostart চালু করুন এবং Recents-এ অ্যাপটি লক করুন।</string>
+    <string name="log_title">কার্যক্রম</string>
+
+    <string name="pair_title">পিসির সাথে যুক্ত করুন</string>
+    <string name="pair_steps">১. পিসিতে Clipboard Bridge V1 খুলুন (একই WiFi/রাউটার)।\n২. নিচে আপনার পিসি বেছে নিন (অথবা পিসির উইন্ডোতে দেখানো IP লিখুন)।\n৩. পিসিতে দেখানো ৬ সংখ্যার পিন লিখে “যুক্ত করুন” চাপুন।</string>
+    <string name="search_running">পিসি খোঁজা হচ্ছে…</string>
+    <string name="search_sweep">এই WiFi-এর সব ঠিকানায় খোঁজা হচ্ছে…</string>
+    <string name="search_none">নিজে থেকে পিসি পাওয়া যায়নি। নিচে পিসির IP লিখুন।</string>
+    <string name="search_found">%1$d টি পিসি পাওয়া গেছে — বেছে নিতে চাপুন:</string>
+    <string name="found_item">%1$s   •   %2$s</string>
+    <string name="btn_search">আবার খুঁজুন</string>
+    <string name="ip_label">পিসির IP ঠিকানা</string>
+    <string name="ip_hint">যেমন 192.168.1.5</string>
+    <string name="pin_label">পিন (পিসির স্ক্রিনে আছে)</string>
+    <string name="pin_hint">৬ সংখ্যার পিন</string>
+    <string name="btn_pair_now">যুক্ত করুন</string>
+    <string name="btn_test">সংযোগ পরীক্ষা</string>
+    <string name="pair_trouble">কাজ না করলে দেখুন: একই WiFi/রাউটার; পিসির অ্যাপ খোলা; পিসি ফায়ারওয়ালের অনুমতি চাইলে Yes চেপেছেন; ফোনে VPN বন্ধ।</string>
+    <string name="testing">পরীক্ষা হচ্ছে…</string>
+    <string name="pairing">পিন যাচাই হচ্ছে…</string>
+    <string name="test_ok">পিসি পাওয়া গেছে: %1$s ✔ এখন পিন লিখে “যুক্ত করুন” চাপুন।</string>
+    <string name="pair_ok">%1$s এর সাথে যুক্ত হয়েছে ✔ এখন শুধু কপি করুন — বাকিটা নিজে হবে।</string>
+    <string name="err_no_ip">একটি পিসি বেছে নিন অথবা IP লিখুন।</string>
+    <string name="err_pin_len">পিন ৬ সংখ্যার।</string>
+    <string name="err_pin">ভুল পিন। পিসিতে এখন যে পিন দেখাচ্ছে সেটা লিখুন।</string>
+    <string name="err_locked">অনেকবার ভুল পিন হয়েছে। %1$d সেকেন্ড অপেক্ষা করুন।</string>
+    <string name="err_refused">পিসি সংযোগ নেয়নি — পিসিতে Clipboard Bridge V1 খোলা আছে তো?</string>
+    <string name="err_timeout">পিসি থেকে উত্তর আসেনি — ফায়ারওয়াল আটকাচ্ছে, অথবা ফোন অন্য WiFi-তে।</string>
+    <string name="err_unreach">এই IP-তে পৌঁছানো যাচ্ছে না — ফোন অন্য নেটওয়ার্কে আছে।</string>
+    <string name="err_bad_ip">IP ঠিকানা ভুল।</string>
+    <string name="err_old_pc">ওই পিসিতে পুরোনো ভার্সন চলছে। পিসিতে Clipboard Bridge V1 চালু করুন।</string>
+    <string name="err_net">নেটওয়ার্ক সমস্যা (%1$s)। আবার চেষ্টা করুন।</string>
+
+    <string name="toast_sent">পিসিতে পাঠানো হয়েছে ✔</string>
+    <string name="toast_pending">পিসি সংযুক্ত নেই — সংযোগ হলেই পাঠানো হবে</string>
+    <string name="toast_not_paired">আগে পিসির সাথে যুক্ত করুন</string>
+    <string name="toast_empty">ক্লিপবোর্ড খালি</string>
+
+    <string name="log_connected">সংযুক্ত:</string>
+    <string name="log_disconnected">সংযোগ কেটে গেছে — আবার যুক্ত হচ্ছে…</string>
+    <string name="log_from_pc">পিসি থেকে এলো:</string>
+    <string name="log_sent">পিসিতে পাঠানো হলো:</string>
+    <string name="log_pending">পিসি সংযুক্ত নেই, পরে পাঠানো হবে</string>
+    <string name="log_too_big">লেখা অনেক বড় (১০ লাখ অক্ষরের বেশি)</string>
+    <string name="log_unpaired">পিসি এই ফোনটি মুছে দিয়েছে</string>
+    <string name="log_forgot">পিসি এই ফোনটি আর চেনে না — আবার পেয়ার করুন</string>
+    <string name="log_img_from_pc">পিসি থেকে ছবি এলো (পেস্ট করুন):</string>
+    <string name="log_img_from_pc_saved">পিসি থেকে ছবি এলো (পেস্ট করুন, গ্যালারিতেও আছে):</string>
+    <string name="log_img_sent">ছবি পিসিতে পাঠানো হলো:</string>
+    <string name="log_img_too_big">ছবি অনেক বড় (২০ MB-এর বেশি)</string>
+    <string name="log_pending_img">পিসি সংযুক্ত নেই — ছবি পাঠানো হয়নি</string>
+    <string name="toast_img_sent">ছবি পিসিতে পাঠানো হয়েছে ✔</string>
+</resources>
