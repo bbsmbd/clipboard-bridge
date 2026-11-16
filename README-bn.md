@@ -43,6 +43,19 @@ Settings → Apps → App management → Clipboard Bridge → Battery usage → 
 
 ---
 
+## স্ক্রিনশট
+
+![পিসির সাথে যুক্ত করুন](docs/screenshots/pair-with-pc.png)
+*পিসির সাথে যুক্ত করুন — পিসির IP আর ৬ সংখ্যার পিন লিখুন।*
+
+![ফোনে যুক্ত হয়েছে](docs/screenshots/phone-connected.png)
+*যুক্ত হয়েছে — পিসিতে কপি করলে ফোনে পেস্ট, ফোনে কপি করলে পিসিতে পেস্ট।*
+
+![পিসিতে যুক্ত হয়েছে](docs/screenshots/pc-connected.png)
+*পিসির উইন্ডো — যুক্ত ফোন, পেয়ারিং পিন আর পিসির IP।*
+
+> ছবিতে দেখানো IP ঠিকানা, পিন আর ডিভাইসের নাম উদাহরণ মাত্র।
+
 ## ব্যবহার
 - **ছবি (দুই দিকেই):**
   - পিসিতে ছবি কপি করলে বা স্ক্রিনশট (Win+Shift+S) নিলে ফোনের ক্লিপবোর্ডে চলে যায়। WhatsApp, Telegram, Gmail-এর মতো যেসব অ্যাপ ছবি পেস্ট নেয় সেখানে পেস্ট করুন। Android 10+ এ গ্যালারির *Pictures/Clipboard Bridge*-এও সেভ হয়।
