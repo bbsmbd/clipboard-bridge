@@ -1,0 +1,20 @@
+# --- NEVER publish the signing key: anyone with it could ship fake "updates" of your app ---
+signing/
+*.jks
+*.keystore
+
+# release binaries go to GitHub Releases, not into the repository
+release/
+
+# build output
+pc-app/target/
+pc-app/cb-home/
+android-app/build/
+installer/*.exe
+*.log
+
+# extra safety: never commit built binaries or OS files
+*.apk
+*.exe
+.DS_Store
+Thumbs.db
