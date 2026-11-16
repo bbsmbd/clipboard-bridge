@@ -1,0 +1,38 @@
+[package]
+name = "clipboard-bridge-pc"
+version = "1.1.0"
+edition = "2021"
+description = "Clipboard Bridge V1 - PC app (Windows)"
+authors = ["Tarek Ahmed"]
+license = "MIT"
+
+[[bin]]
+name = "ClipboardBridge-V1"
+path = "src/main.rs"
+
+[dependencies]
+aes-gcm = "0.10"
+pbkdf2 = { version = "0.12", default-features = false, features = ["hmac"] }
+sha2 = "0.10"
+rand = "0.8"
+base64 = "0.22"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+if-addrs = "0.13"
+image = { version = "0.25", default-features = false, features = ["png", "jpeg", "webp", "gif", "bmp"] }
+
+[target.'cfg(windows)'.dependencies]
+windows-sys = { version = "0.59", features = [
+  "Win32_Foundation", "Win32_UI_WindowsAndMessaging", "Win32_Graphics_Gdi",
+  "Win32_System_DataExchange", "Win32_System_Memory", "Win32_System_Ole",
+  "Win32_UI_Shell", "Win32_System_LibraryLoader", "Win32_System_Threading",
+  "Win32_System_Registry", "Win32_System_SystemInformation", "Win32_Security",
+  "Win32_UI_Input_KeyboardAndMouse"
+] }
+
+[profile.release]
+opt-level = "s"
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = true
